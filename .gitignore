@@ -1,0 +1,81 @@
+# Unity generated files. Based on:
+# https://github.com/github/gitignore/blob/main/Unity.gitignore
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.utmp/
+*.log
+
+# Local OS and editor state
+.DS_Store
+._*
+/.vscode/
+.vs/
+.idea/
+.gradle/
+.consulo/
+ExportedObj/
+*.DotSettings.user
+
+# Generated solution, project, debug, and crash files
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# Build outputs and backup files
+*.apk
+*.aab
+*.app
+*.unitypackage
+*.unitypackage.meta
+*.blend1
+*.blend1.meta
+crashlytics-build.properties
+
+# Generated Unity assets and tools
+/[Aa]ssets/Plugins/Editor/JetBrains*
+/ServerData/
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Flow/UnitOptions.db*
+/[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers*
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/InitTestScene*.unity*
+/UIElementsSchema/
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# Local credentials: keep outside public version control
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.jks
